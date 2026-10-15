@@ -1,0 +1,24 @@
+package day01;
+//Question:01: Arithmetic Operations
+public class question01 {
+	public static void main(String[] args) {
+		int a = 10;
+		int b = 20;
+		int addition = a+b;
+		int subtraction = b-a;
+		int multiplication = a*b;
+		int division = b/a;
+		int remainder = a%b;
+		
+//		01: addition
+		System.out.println("Addition:"+addition);
+//		02: subtraction
+		System.out.println("subtraction:"+subtraction);
+//		03: multiplication
+		System.out.println("multiplication:"+multiplication);
+//		04: division
+		System.out.println("division:"+division);
+//		05: remainder
+		System.out.println("remainder:"+remainder);
+	}
+}

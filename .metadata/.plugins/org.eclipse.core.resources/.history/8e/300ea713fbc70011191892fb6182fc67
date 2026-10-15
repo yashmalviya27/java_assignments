@@ -1,0 +1,21 @@
+package day01;
+
+// Question 03: Simple Interest
+public class question03 {
+    public static void main(String[] args) {
+        // Sample values — change these as needed.
+        float p = 10000f; 
+        float r = 5.5f;   
+        float t = 2f;    
+
+        // Simple Interest = (Principal × Rate × Time) / 100
+        float si = (p * r * t) / 100;
+
+        // Total amount = Principal + Simple Interest
+        float amount = p + si;
+
+        // Display values rounded to two decimal places.
+        System.out.printf("Simple Interest: %.2f%n", si); // output:
+        System.out.printf("Total Amount: %.2f%n", amount); // output: 
+    }
+}
